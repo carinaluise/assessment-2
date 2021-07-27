@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/carinaluise/assessment-2/issues"
   },
-  "homepage": "https://github.com/carinaluise/assessment-2#readme"
+  "homepage": "https://github.com/carinaluise/assessment-2#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
 }
