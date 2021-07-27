@@ -2,6 +2,7 @@ body {
   background: black;
 
   &::after {
+    color: white;
     content: "is white";
   }
 }
