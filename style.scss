@@ -1,0 +1,7 @@
+body {
+  background: black;
+
+  &::after {
+    content: "is white";
+  }
+}
