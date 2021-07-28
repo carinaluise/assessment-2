@@ -35,7 +35,7 @@ To set up this project I have used the following tech-stack:
 
 # Building the "styles.css" file 
 
-1. Begin by installing all dependencies listed within the package.json file. <br/>
+1. Begin by installing all dependencies listed within the `package.json` file. <br/>
 
     To do so open up your command line, cd into the project folder and type: <br/>
 
@@ -43,34 +43,19 @@ To set up this project I have used the following tech-stack:
 
     Now you should have `node-sass` installed and ready to use.
 
+2. Next you can go ahead and run the build script listed inside `package.json`:
 
+    `"build" : "node-sass --watch scss -o css"`
 
-3. Click `Watch Sass` from the bottom status bar in your VS window. 
+    To run this you can use the following command inside of your terminal:
 
-<img src="https://raw.githubusercontent.com/ritwickdey/vscode-live-sass-compiler/master/images/Screenshot/statusbar.jpg" > <br/>
+    `npm run build`
+    
+    Now any `scss` edits you make will automatically compile into the `style.css` file. 
 
-This will generate both a `styles.css` file and a `style.css.map` file as well as turn on live compilation. 
+3. You have now successfully built a css file from live compiled sass! <br/> 
 
-4. Make sure that in `styles.css.map` the correct files are listed: <br/>
-
-    IE: the "source" is `styles.scss` and "file" is routed to `style.css`.
-
-```
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,KAAK;CAMlB;;AAPD,AAGE,IAHE,AAGD,OAAO,CAAC;EACP,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,UAAU;CACpB",
-    "sources": [
-        "style.scss"
-    ],
-    "names": [],
-    "file": "style.css" 
-}
-
-```
-
-5. You have now successfully built a css file from live compiled sass! <br/> 
-
-    Now you can right-click on the `index.html` file and run the live server to test it out.
+    Now you can right-click on `index.html` and run the live server to test it out.
 
 
 ![](https://raw.githubusercontent.com/ritwickdey/vscode-live-sass-compiler/master/images/Screenshot/AnimatedPreview.gif) 
