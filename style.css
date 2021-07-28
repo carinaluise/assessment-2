@@ -1,9 +1,0 @@
-body {
-  background: black;
-}
-
-body::after {
-  color: white;
-  content: "is white";
-}
-/*# sourceMappingURL=style.css.map */

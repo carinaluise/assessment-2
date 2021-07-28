@@ -1,0 +1,5 @@
+body {
+  background: black; }
+  body::after {
+    color: white;
+    content: "is white"; }

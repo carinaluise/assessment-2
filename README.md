@@ -43,12 +43,7 @@ To set up this project I have used the following tech-stack:
 
     Now you should have `node-sass` installed and ready to use.
 
-2. Next check that you have the `Live Sass Compiler` extension installed in Visual Code Studio. <br/>
 
-    If not head over to the extension panel in VScode and install or use the following link:
-
-
-    https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass 
 
 3. Click `Watch Sass` from the bottom status bar in your VS window. 
 
