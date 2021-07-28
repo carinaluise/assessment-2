@@ -20,36 +20,35 @@
 
 ## document here:
 # Languages and tools
-To set up this very black and white project I have used the following tech-stack:
+To set up this project I have used the following tech-stack:
 
 - <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
--<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+- <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
 - <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JAVASCRIPT">
 - <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM">
--<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="BOOTSTRAP">
--<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS">
--<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="GIT">
--<img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" alt="VISUAL STUDIO CODE">
+- <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="BOOTSTRAP">
+- <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS">
+- <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="GIT">
+- <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" alt="VISUAL STUDIO CODE">
 
 
 
 # Building the "styles.css" file 
 
-1. Begin by installing all dependencies listed within the package.json file. 
-<br/>
-To do so open up your command line, cd into the project folder and type:
-<br/>
+1. Begin by installing all dependencies listed within the package.json file. <br/>
 
-`npm install`
+    To do so open up your command line, cd into the project folder and type: <br/>
 
-Now you should have `node-sass` installed and ready to use.
+    `npm install`
 
-2. Next check that you have the `Live Sass Compiler` extension installed in Visual Code Studio. 
-<br/>
-If not head over to the extension panel in VScode and install or use the following link.
+    Now you should have `node-sass` installed and ready to use.
+
+2. Next check that you have the `Live Sass Compiler` extension installed in Visual Code Studio. <br/>
+
+    If not head over to the extension panel in VScode and install or use the following link:
 
 
-https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass 
+    https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass 
 
 3. Click `Watch Sass` from the bottom status bar in your VS window. 
 
@@ -57,10 +56,9 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
 
 This will generate both a `styles.css` file and a `style.css.map` file as well as turn on live compilation. 
 
-4. Make sure that in `styles.css.map` the correct files are listed: 
-<br/>
+4. Make sure that in `styles.css.map` the correct files are listed: <br/>
 
-IE: the "source" is `styles.scss` and "file" is routed to `style.css`.
+    IE: the "source" is `styles.scss` and "file" is routed to `style.css`.
 
 ```
 {
@@ -73,9 +71,11 @@ IE: the "source" is `styles.scss` and "file" is routed to `style.css`.
     "file": "style.css" 
 }
 
-5. You have now successfully built a css file from live compiled sass! 
-<br/> 
-Now you can right-click on `index.html` and run the live server to test it out.
+```
+
+5. You have now successfully built a css file from live compiled sass! <br/> 
+
+    Now you can right-click on the `index.html` file and run the live server to test it out.
 
 
 ![](https://raw.githubusercontent.com/ritwickdey/vscode-live-sass-compiler/master/images/Screenshot/AnimatedPreview.gif) 
